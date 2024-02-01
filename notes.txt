@@ -1,0 +1,18 @@
+--> When ever a user modifies the properties of your cell 
+then you should do 2 way binding. 
+
+--> It means bring all the data changes into the storage i.e. making chages
+ to the properties of the cell and making those reflect in the UI.
+
+--> Example : If you click on the A2 cell then all the properties of it should be displayed, like if 
+ it is bold then the bold symbol should be shown active and letters should be bold.And other properties 
+ will have default property because they dont have any effect on this cell.
+
+ --------------------------------
+
+Formula Bar notes :-
+--> Event listeners used:focus, blur
+       -> blur works first before click.
+--> Formula evaluation:
+       -> Normal expression   eg:(10+20)  
+       -> Dependency expression  eg:(A1+A2+10)
